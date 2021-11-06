@@ -19,19 +19,3 @@ const questions = [
         choices: ["Texas, New Mexico and Arizona territories", "California, Nevada and Arizona", "Arizona, New Mexico, Nevada", "Texas, New Mexico, Oklahoma"],
         answer: "Texas, New Mexico and Arizona territories" //answer is A
     },
-
-    {
-        questionTitle: "Arrays are a special type of objects in JavaScript. What can they store exactly in them?",
-        choices: ["Strings", "Booleans", "Other arrays", "All of the Above"],
-        answer: "All of the Above"
-        //answer is D
-    },
-
-    {
-        questionTitle: "Which boolean operator represents 'And'?",
-        choices: ["&&", "||", "?!", "*"],
-        answer: "&&"
-        //answer is A
-    },
-        
- 
