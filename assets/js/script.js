@@ -23,12 +23,66 @@ const questions = [
 
     },
 
-    {
+    {// wikipedia
         question:"What language did Alick Glennie develop?",
         choices:["Fortran", "Autocode", "FLOW-MATIC", "Comtran"],
-        answe:"Autocode"
+        answer:"Autocode"
 
-    }
+    },
+
+    {
+     question:"In 1959, who designed COBOL?",
+     choices:["Grace Hopper", "John McCarthy",  "CODASYL", "Konrad Zuse"],
+     answer:"CODASYL"   
+
+    },
+
+    {
+        question:"",
+        choices:[],
+        answer:""   
+   
+       },
+
+       {
+        question:"",
+        choices:[""],
+        answer:""   
+   
+       },
+
+       {
+        question:"",
+        choices:[""],
+        answer:""   
+   
+       },
+
+       {
+        question:"",
+        choices:[""],
+        answer:""   
+   
+       },
+
+       {
+        question:"",
+        choices:[""],
+        answer:""   
+   
+       },
+
+       {
+        question:"",
+        choices:[""],
+        answer:""   
+   
+       },
+
+    
+
+       
 
 
-]
+
+]"CODASYL", "Konrad Zuse
