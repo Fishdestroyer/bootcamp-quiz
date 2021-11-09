@@ -1,21 +1,27 @@
-// Var for Test
-//min totalscore of quiz is 0, maximum score user makes is up to 400
 var totalScore = 0;
-var nextQuestion = -1; 
+var nextQuestion = -1;
 var timeLeft = 0;
 var quizTimer;
-var feedbackEl = document.querySelector("#feedback");
-
+var feedBackEl = document.querySelector("#feedback");
 const questions = [
+    {
+        question:"In what time frame was coding languages invented/ developed? ";
+        choices:["'The 1940's", "The 1950's", "The 1960's", "The 1970's"],
+        answer: "The 1950's" 
+    },
 
     {
-        questionTitle: "Where does the term 'Cowboy' come from?",
-        choices: ["A John Wayne movie","Billy the Kid was one", "Boys who worked cows", "The Spanish word 'Vaquero'"],
-        answer: "The Spanish word 'Vaquero'" //answer is D
+        question:"What is the first commercially available programming language?",
+        choices:["Fortran", "Python", "C++", "Javascript"],
+        answer:"Fortran" 
     },
-        
+
     {
-        questionTitle: "In the 17700's, what 3 states wre the first to start ranching in the US?",
-        choices: ["Texas, New Mexico and Arizona territories", "California, Nevada and Arizona", "Arizona, New Mexico, Nevada", "Texas, New Mexico, Oklahoma"],
-        answer: "Texas, New Mexico and Arizona territories" //answer is A
-    },
+        question:"What is recognized as the first published computer program?",
+        choices:["Short code", "Fortran", "Plankalkul", "Algorithm for the Analytical Engine"],
+        answer:"Algorithm for the Analytical Engine"
+
+    }
+
+    
+]
