@@ -38,9 +38,23 @@ const questions = [
     },
 
     {
-        question:"",
-        choices:[],
-        answer:""   
+        question:"What was the first programming language to feature the picture clause element?",
+        choices:["COMTRAN", "COBOL","Lisp", "JOSS" ],
+        answer:"COMTRAN"   
+   
+       },
+
+       {
+        question:"What language was developed for the UNIVAC 1?",
+        choices:["FACT", "BASIC", "PL/I", "FLOW-MATIC"],
+        answer:"FLOW-MATIC"   
+   
+       },
+
+       {
+        question:"Whic of the following is NOT a programming language?",
+        choices:["LISP", "RPG", "Simula", "English"],
+        answer:"English"   
    
        },
 
@@ -57,32 +71,4 @@ const questions = [
         answer:""   
    
        },
-
-       {
-        question:"",
-        choices:[""],
-        answer:""   
-   
-       },
-
-       {
-        question:"",
-        choices:[""],
-        answer:""   
-   
-       },
-
-       {
-        question:"",
-        choices:[""],
-        answer:""   
-   
-       },
-
-    
-
-       
-
-
-
-]"CODASYL", "Konrad Zuse
+]
