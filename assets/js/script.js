@@ -1,3 +1,6 @@
+// researched wikipedia, google and old.org for questions and answers
+
+
 var totalScore = 0;
 var nextQuestion = -1;
 var timeLeft = 0;
@@ -52,23 +55,23 @@ const questions = [
        },
 
        {
-        question:"Whic of the following is NOT a programming language?",
-        choices:["LISP", "RPG", "Simula", "English"],
-        answer:"English"   
+        question:"Which of the following is NOT a programming language?",
+        choices:["LISP", "RPG", "Simula", "TRANE"],
+        answer:"TRANE"   
    
        },
 
        {
-        question:"",
-        choices:[""],
-        answer:""   
+        question:"Which of the following are Lisp dialects?",
+        choices:["Racket", "Scheme", "Clojure", "All of these"],
+        answer:"All of these"   
    
        },
 
        {
-        question:"",
-        choices:[""],
-        answer:""   
+        question:"What year was Lisp originally specified?",
+        choices:["1955,", "1957", "1963", "1958"],
+        answer:"1958"   
    
        },
 ]
