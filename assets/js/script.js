@@ -5,7 +5,8 @@ var totalScore = 0;
 var nextQuestion = -1;
 var timeLeft = 0;
 var quizTimer;
-var feedBackEl = document.querySelector("#feedback");
+var feedbackEl = document.querySelector("#feedback");
+
 const questions = [
     {
         question:"In what time frame was modern coding languages invented/ developed? ",
@@ -75,3 +76,19 @@ const questions = [
    
        },
 ]
+
+function startQuiz() {
+
+    timeLeft = 90;
+    document.getElementById("timeLeft").innerHTML=timeLeft + " seconds";
+
+    quizTimer = setInterval(function() {
+        timeLeft--;
+        document.getElementById("timeLeft").innerHTML=timeLeft + " seconds";
+        if (timeLeft <= 0) {
+            clearInterval(quizTimer);
+            window.alert("TIME IS UP! THE QUIZ IS OVER!");
+            quizOver(); 
+        }
+        }, 900); 
+// set countdown timer to 900 miliseconds for a 90 second countdown

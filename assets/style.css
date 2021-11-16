@@ -4,8 +4,8 @@
 }
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(81, 78, 136) 0%, rgb(209, 216, 218) 0%, rgb(222, 236, 236) 47%, rgb(232, 238, 238) 100%);
+    background: rgb(72, 88, 238);
+    background: linear-gradient();
     font-family: Helvetica, Arial, sans-serif;
     line-height: 2;
     font-size: 20px;
