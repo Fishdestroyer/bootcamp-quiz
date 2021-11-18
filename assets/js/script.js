@@ -87,8 +87,11 @@ function startQuiz() {
         document.getElementById("timeLeft").innerHTML=timeLeft + " seconds";
         if (timeLeft <= 0) {
             clearInterval(quizTimer);
-            window.alert("TIME IS UP! THE QUIZ IS OVER!");
+            window.alert("OH NO! TOO SLOW! PLEASE TRY AGAIN");
             quizOver(); 
         }
         }, 900); 
 // set countdown timer to 900 miliseconds for a 90 second countdown
+nextNewQuestion();
+}
+
