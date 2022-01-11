@@ -34,10 +34,10 @@ CSS
 JavaScript
 
 # Screen Shots
-https://user-images.githubusercontent.com/90293855/148975451-e9145cb1-1b44-416f-8e6e-e60610a579f9.JPG
+![Image]https://user-images.githubusercontent.com/90293855/148975451-e9145cb1-1b44-416f-8e6e-e60610a579f9.JPG
 
 
-https://user-images.githubusercontent.com/90293855/148975538-0680154b-29d2-45d3-8902-2868ab7eedec.JPG
+![Image]https://user-images.githubusercontent.com/90293855/148975538-0680154b-29d2-45d3-8902-2868ab7eedec.JPG
 
 # Resources
 Google
@@ -51,3 +51,5 @@ Ask BCS
 Bootcamp assigned Tutor
 
 # Github repositories
+
+https://github.com/Fishdestroyer/bootcamp-quiz
