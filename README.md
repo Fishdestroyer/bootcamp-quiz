@@ -34,10 +34,10 @@ CSS
 JavaScript
 
 # Screen Shots
-![Image]https://user-images.githubusercontent.com/90293855/148975451-e9145cb1-1b44-416f-8e6e-e60610a579f9.JPG
+![coding quiz](https://user-images.githubusercontent.com/90293855/148978595-63a95f2d-19e9-4de0-b8fb-7a3ee7f9acbe.JPG)
 
 
-![Image]https://user-images.githubusercontent.com/90293855/148975538-0680154b-29d2-45d3-8902-2868ab7eedec.JPG
+![high score](https://user-images.githubusercontent.com/90293855/148978651-72fa813c-0848-46b9-abbd-c943769a6a23.JPG)
 
 # Resources
 Google
