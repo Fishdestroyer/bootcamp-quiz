@@ -3,22 +3,25 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background: rgb(72, 88, 238);
-    background: linear-gradient();
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:fantasy;
     line-height: 2;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
+    background:rgb(219, 248, 255);
+    font-family: cursive;
 }
 
 .highscores a {
-    text-decoration: none;
+    text-decoration: wavy;
     list-style: none;
     color: black;
 }
@@ -27,57 +30,3 @@ header {
     color: black;
 }
 
-.highscores a:visited {
-    color: black;
-}
-
-.wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.row p {
-    padding: 20px;
-}
-
-/* for hide setting on feedback back appears when question answer is correct or incorrect */
-.hide {
-    display: none;
-}
-
-/* for all button sources, button source for quiz choice is the first one */
-button, .highscore-btn, .first-btn, .btn-choice, .submit-btn, .next-btn, .reset-btn, .clear-btn {
-    background-color: white;
-    border-radius: 25px;
-    border-width: 3px;
-    font-size: 20px;
-    border-color: rgb(2, 204, 255);
-    appearance: none;
-}
-
-/* for hover effect - handles all buttons */
-button:hover, .highscore-btn:hover, .first-btn:hover, .btn-choice:hover, .submit-btn:hover, .next-btn:hover, .reset-btn:hover, .clear-btn:hover {
-    background-color: rgb(219, 248, 255);
-    color: rgb(2, 204, 255);
-}
-
-/* for submit initial text area box */
-.initials {
-    background-color: white;
-    border-radius: 25px;
-    border-color: rgb(2, 204, 255);
-    margin: 10px;
-    padding: 10px, 5px;
-    appearance: none;
-}
