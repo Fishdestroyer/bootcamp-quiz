@@ -99,7 +99,7 @@ function startQuiz() {
 
 function endQuiz() {
     clearInterval(quizTimer);
-// end of quiz final score
+    // end of quiz final score
     var finalQuizDetails = `
     <h2>Great job!</h2>
     <h3>Your final score is ` + totalScore + `!</h3>
@@ -116,15 +116,14 @@ function saveHighscore() {
 
     getHighscore();
 }
-
-//after player saves highscore, turns into special page that allows user to either clear score and play again or simply play again without affecting their score on localstorage
+// Allows viewing high score, Gives the option of clearing the score to play again.
 
 function getHighscore() {
     var finalQuizDetails = `
     <h2>` + localStorage.getItem("Name") + `'s highscore is:</h2>
     <h1>` + localStorage.getItem("saveHighscore") + `</h1><br >
     <button onclick="clearHighscore()" class="clear-btn" title = "Clear Score and Play Again!">Clear Score and Play Again!</button>`;
-        document.getElementById("startpage").innerHTML = finalQuizDetails;
+    document.getElementById("startpage").innerHTML = finalQuizDetails;
 }
 // clear function clears high score from the user's local storage and brings the user back to the start page
 function clearHighscore() {
@@ -182,7 +181,6 @@ function correctAnswer() {
 
 }
 
-//officially initates the question const and ensures correct answers are chosed, linking them to the above functions
 function nextNewQuestion() {
     nextQuestion++;
 
