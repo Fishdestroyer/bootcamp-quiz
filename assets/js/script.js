@@ -91,8 +91,8 @@ function startQuiz() {
             window.alert("OH NO! TOO SLOW! PLEASE TRY AGAIN");
             endQuiz();
         }
-        //Setes to countdown timer interval to 120 seconds
-    }, 1200);
+        
+    },1000 );
 
     nextNewQuestion();
 }
@@ -160,7 +160,8 @@ function wrongAnswer() {
     feedbackEl.setAttribute("class", "feedback");
     setTimeout(function () {
         feedbackEl.setAttribute("class", "hide");
-    }, 1500);
+        //display time for feedback
+    }, 1000);
 
     nextNewQuestion();
 
@@ -175,12 +176,12 @@ function correctAnswer() {
     feedbackEl.setAttribute("class", "feedback");
     setTimeout(function () {
         feedbackEl.setAttribute("class", "hide");
-    }, 1500);
+    }, 1000);
 
     nextNewQuestion();
 
 }
-
+// Loops through questions
 function nextNewQuestion() {
     nextQuestion++;
 

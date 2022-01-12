@@ -50,6 +50,8 @@ Ask BCS
 
 Bootcamp assigned Tutor
 
+MDN and W3 Schools 
+
 # Github repositories
 
-https://github.com/Fishdestroyer/bootcamp-quiz
+ https://fishdestroyer.github.io/bootcamp-quiz/
